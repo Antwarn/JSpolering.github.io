@@ -1,0 +1,169 @@
+/** {
+    border: 1px dashed red;
+}*/
+
+* {
+    font-family: 'Verdana';
+}
+
+body {
+    background-color: #fdebe1;
+    font-family: 'Verdana';
+    height: 1000px;
+}
+
+
+.nav-bar {
+    height: 200px;
+
+}
+
+.nav-bar > div > div > * {
+    text-align: center;
+    margin: 0px;
+}
+
+.nav-bar > img {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    height: 150px;
+    
+}
+
+.logo-heading {
+    position: relative;
+    left: 200px;
+    top: -125px;
+    width: 400px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.nav-bar > div > div > p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hjem {
+    position: relative;
+    width: 200px;
+    top: -200px;
+    left: 1400px;
+}
+
+.hjem:hover {
+    color: #55ACEF;
+}
+
+.hvem {
+    position: relative;
+    width: 200px;
+    top: -226px;
+    left: 1610px;
+}
+
+.hvem:hover {
+    color: #55ACEF;
+}
+
+.service {
+    position: relative;
+    width: 250px;
+    top: -252px;
+    left: 1820px;
+}
+
+.service:hover {
+    color: #55ACEF;
+}
+
+.beregn {
+    position: relative;
+    width: 200px;
+    top: -278px;
+    left: 2080px;
+}
+
+.beregn:hover {
+    color: #55ACEF;
+}
+
+.heading > * {
+    position: relative;
+    margin: 0px;
+    top: 70px;
+}
+
+.heading > h1 {
+    position: relative;
+    left: 20px;
+    font-size: 45px;
+}   
+
+.heading {
+    width: 700px;
+}
+
+.heading > p {
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+    width: 700px;
+}
+
+#contact {
+    position: relative;
+    left: 20px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    top: 70px;
+    height: 70px;
+    width: 150px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.video {
+    position: relative;
+    left: 220px;
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    background-color: #55ACEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video > img {
+    height: 30px;
+}
+
+.contact > p {
+    position: relative;
+    left: 310px;
+    top: -67px;
+    width: 200px;
+    color: black;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.billede {
+    height: 100px;
+}
+
+.billede > img {
+    position: relative;
+    left: 900px;
+    top: -436px;
+    height: 1050px;
+    margin: 0px;
+}
