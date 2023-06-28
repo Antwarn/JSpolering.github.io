@@ -155,15 +155,40 @@ body {
     font-size: 20px;
 }
 
-.billede {
-    height: 100px;
-}
-
 .billede > img {
-    min-height: 1000px;
+    height: 80vh;
     position: relative;
     position: absolute;
     left: 1300px;
     bottom: 0;
-    height: 50px; /* Adjust the height according to your needs */
 }
+
+.galleri {
+    left: 50px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    outline: 1px dashed red;
+}
+.galleri > img {
+    max-height: 600px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    transition: transdorm 0.03s;
+}
+
+.galleri > img:hover {
+    transform: scaleX(2);
+}
+
+
+.galleri > img:first-child {
+    margin-left: 0px;
+}
+
+.galleri > img:last-child {
+    margin-right: 0px;
+}
+
